@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script src="app.js"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="continer">
+      <div class="box">
+        <div class="side__1">
+          <div class="side__1-text">bill</div>
+          <input
+            type="number"
+            id="billAmount"
+            placeholder="0.0"
+            class="side__1__bill"
+          />
+          <div class="side__1-text">Select Tip %</div>
+          <div class="side__1__percentage">
+            <button id="tip5" class="side__1__percentage-1">5%</button>
+            <button id="tip10" class="side__1__percentage-1">10%</button>
+            <button id="tip15" class="side__1__percentage-1">15%</button>
+            <button id="tip25" class="side__1__percentage-1">25%</button>
+            <button id="tip50" class="side__1__percentage-1">50%</button>
+            <input
+              id="Custom"
+              placeholder="Custom"
+              class="side__1__percentage-2"
+            />
+          </div>
+          <div class="side__1-text">Number of People</div>
+          <input
+            type="number"
+            id="numberPll"
+            placeholder="0"
+            class="side__1__bill"
+          />
+        </div>
+        <div class="side__2">
+          <div class="side__2__numbox">
+            <div class="side__2__numbox-textbox">
+              <div class="side__2__numbox-text-1">Tip Amount</div>
+              <div class="side__2__numbox-text-2">/ person Total</div>
+            </div>
+            <div class="side__2__numbox-num">0.0</div>
+          </div>
+
+          <div class="side__2__numbox">
+            <div class="side__2__numbox-textbox">
+              <div class="side__2__numbox-text-1">Total</div>
+              <div class="side__2__numbox-text-2">/ person Total</div>
+            </div>
+            <div class="side__2__numbox-num-2">0.0</div>
+          </div>
+
+          <button class="side__2-btn">RESET</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tip Amount / person Total / person Reset -->
+  </body>
+</html>
